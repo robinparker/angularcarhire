@@ -1,0 +1,58 @@
+﻿{
+    "countries": [
+        {
+            "countryName": "United Kingdom",
+            "townsCities": [
+				{ "name": "Leeds", 
+					"Locations": [
+					"Leeds Airport",
+					"Leeds City Centre"
+					]
+				},
+                { "name": "Liverpool", 
+					"Locations": [
+					"Liverpool Airport",
+					"Liverpool City Centre"
+					]				
+				},
+                { "name": "Manchester",
+					"Locations": [
+					"Manchester Airport",
+					"Manchester City Centre"
+					]							
+				},
+				{ "name": "Warrington" }
+           ]
+        },
+        {
+            "countryName": "France",
+            "airports": [
+				"Bordeaux",
+				"Cannes",
+                "Lyon",
+                "Marseille",
+				"Paris"
+           ]
+        },
+        {
+            "countryName": "Italy",
+            "airports": [
+				"Bologne",
+                "Florence",
+                "Milan",
+				"Naples"
+           ]
+        },
+        {
+            "countryName": "USA",
+            "airports": [
+				"Aspen",
+                "Atlanta",
+                "Boston",
+				"Chicago",
+				"Dallas"
+           ]
+        }
+		
+	]
+}

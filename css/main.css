@@ -1,0 +1,60 @@
+
+
+
+/* ==========================================================================
+custom styles
+   ========================================================================== */
+
+body { width: 90%; max-width: 1000px; min-width: 360px; margin: 2.5em auto; }
+
+select { padding: 0.5em; font-size: 1em; min-width: 10em; }
+
+.error { color: red; }
+
+#search-panel input[type="button"] { display: block; width: 10em; }
+
+#car-hire-results { float: left; width: 60%; }
+#car-hire-results > h3 { float: left; }
+#car-hire-results h3 + a { float: right; margin-right: 6%; margin-top: 1em; }
+article.result { float: left; width: 94%; border: 1px solid #ddd; margin-bottom: 1em; border-radius: 5px; padding-bottom: 1em; overflow: hidden; }
+article.result header { background: #ddd; padding: 0.1em 2%; margin-bottom: 0.5em; }
+article.result header * { margin: 0.5em 0; font-size: 1.2em; }
+article.result img.car-type { margin-left: 5%; float: left; }
+article.result img.company { float: right; margin-right: 5%; }
+article.result .result-features { width: 33%; margin-left: 5%; float: left; padding-left: 20px; margin-top: 0.5em; }
+article.result .result-features li { font-size: 0.8em; }
+#car-hire-results #pagination { float: left; width: 94%; text-align: center; }
+
+#filters { float: right; width: 38%; border-radius: 5px; border: 1px solid #ddd; margin-top: 3.2em; }
+#filters h2 { background: #ddd; padding: 0.1em 2%; margin-bottom: 0.5em; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-top: 0; font-size: 1.2em; padding: 0.5em 6%; }
+#filters h4 { float: left; width: 100%; }
+#filters fieldset { margin: 5%; }
+#filters .left { float: left; width: 49%; margin-bottom: 1em; }
+#filters .right { float: right; width: 49%; margin-bottom: 1em; }
+#filters #amount { float: left; clear: both; }
+#filters #price-slider { float: left; clear: both; width: 95%; }
+
+#map { float: right; clear: right; width: 38%; height: 320px; margin-top: 30px; }
+google-map { height: 400px; display: block; width: 100%; }
+
+.example-repeat-enter-setup,
+.example-repeat-leave-setup,
+.example-repeat-move-setup {
+  -webkit-transition:all ease 0.25s;
+  -moz-transition:all ease 0.25s;
+  transition:all ease 0.25s;
+  position: relative;
+}
+ 
+.example-repeat-enter-setup { opacity:0; top: -75px; }
+.example-repeat-enter-setup.example-repeat-enter-start { opacity:1; top: 0; }
+ 
+.example-repeat-leave-setup { opacity:1; top: 0; }
+.example-repeat-leave-setup.example-repeat-leave-start { opacity:0; top: -75px; }
+ 
+.example-repeat-move-setup { }
+.example-repeat-move-setup.example-repeat-move-start { }
+
+
+
+

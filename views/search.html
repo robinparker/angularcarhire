@@ -1,0 +1,23 @@
+<section id="search-panel">
+	<form method="get" action="#/results">
+			<select data-ng-model="locationSelect" ng-options="loc.countryName for loc in locations">
+				<option value="">Country</option>
+			</select>
+		
+			<br />
+			<select data-ng-model="locationSelect2" data-ng-disabled="!locationSelect" data-ng-show="locationSelect.countryName === 'United Kingdom'" ng-options="loc.name as loc.name for loc in locationSelect.townsCities">
+				<option value="">Town/City</option>
+			</select>	
+			<select data-ng-model="locationSelect2" data-ng-disabled="!locationSelect" data-ng-show="locationSelect.countryName != 'United Kingdom'" ng-options="loc for loc in locationSelect.airports">
+				<option value="">Airport</option>
+			</select>	
+			
+			<input type="button" value="search" data-ng-click="searchClick()" class="button"></input>
+		
+		<p class="error">{{ errorMessage }}</p>
+		
+		<!--<input auto-complete ui-items="locations" ng-model="selected">
+        selected = {{selected}}-->
+		
+	</form>
+</section>

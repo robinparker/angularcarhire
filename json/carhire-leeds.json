@@ -1,0 +1,641 @@
+{
+    "results": [
+        {
+            "company": {
+                "name": "Atlas Choice",
+                "image": "img/logos/atlaschoice.gif",
+                "location": {
+                    "latitude": "53.800575",
+                    "longitude": "-1.560960"
+                }			
+            },
+            "price": {
+                "value": 34.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Mini",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Atlas Choice",
+                "image": "img/logos/atlaschoice.gif",
+                "location": {
+                    "latitude": "53.800575",
+                    "longitude": "-1.560960"
+                }					
+            },
+            "price": {
+                "value": 44.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Economy",
+                "image": "img/cartypes/checonomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Atlas Choice",
+                "image": "img/logos/atlaschoice.gif",
+                "location": {
+                    "latitude": "53.800575",
+                    "longitude": "-1.560960"
+                }				
+            },
+            "price": {
+                "value": 54.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Compact",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Atlas Choice",
+                "image": "img/logos/atlaschoice.gif",
+                "location": {
+                    "latitude": "53.800575",
+                    "longitude": "-1.560960"
+                }			
+            },
+            "price": {
+                "value": 64.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Intermediate",
+                "image": "img/cartypes/chmediumfamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": true,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+
+	
+	
+	
+	
+	
+        {
+            "company": {
+                "name": "Holiday Autos",
+                "image": "img/logos/holiday_autos.gif",
+                "location": {
+                    "latitude": "53.798420",
+                    "longitude": "-1.552076"
+                }							
+            },
+            "price": {
+                "value": 65.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Intermediate",
+                "image": "img/cartypes/chmediumfamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Holiday Autos",
+                "image": "img/logos/holiday_autos.gif",
+                "location": {
+                    "latitude": "53.798420",
+                    "longitude": "-1.552076"
+                }						
+            },
+            "price": {
+                "value": 75.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Premium",
+                "image": "img/cartypes/chlargefamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },		
+		
+		
+		
+		
+        {
+            "company": {
+                "name": "Avis",
+                "image": "img/logos/avis.gif",
+                "location": {
+                    "latitude": "53.800778",
+                    "longitude": "-1.548514"
+                }						
+            },
+            "price": {
+                "value": 36.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Mini",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Avis",
+                "image": "img/logos/avis.gif",
+                "location": {
+                    "latitude": "53.800778",
+                    "longitude": "-1.548514"
+                }							
+            },
+            "price": {
+                "value": 46.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Economy",
+                "image": "img/cartypes/checonomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Avis",
+                "image": "img/logos/avis.gif",
+                "location": {
+                    "latitude": "53.800778",
+                    "longitude": "-1.548514"
+                }							
+            },
+            "price": {
+                "value": 56.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Compact",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Avis",
+                "image": "img/logos/avis.gif",
+                "location": {
+                    "latitude": "53.800778",
+                    "longitude": "-1.548514"
+                }							
+            },
+            "price": {
+                "value": 66.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Intermediate",
+                "image": "img/cartypes/chmediumfamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Avis",
+                "image": "img/logos/avis.gif",
+                "location": {
+                    "latitude": "53.800778",
+                    "longitude": "-1.548514"
+                }							
+            },
+            "price": {
+                "value": 76.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Premium",
+                "image": "img/cartypes/chlargefamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },				
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        {
+            "company": {
+                "name": "Budget",
+                "image": "img/logos/budget.gif",
+                "location": {
+                    "latitude": "53.803413",
+                    "longitude": "-1.535425"
+                }						
+            },
+            "price": {
+                "value": 37.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Mini",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Budget",
+                "image": "img/logos/budget.gif",
+                "location": {
+                    "latitude": "53.803413",
+                    "longitude": "-1.535425"
+                }							
+            },
+            "price": {
+                "value": 47.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Economy",
+                "image": "img/cartypes/checonomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Budget",
+                "image": "img/logos/budget.gif",
+                "location": {
+                    "latitude": "53.803413",
+                    "longitude": "-1.535425"
+                }							
+            },
+            "price": {
+                "value": 57.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Compact",
+                "image": "img/cartypes/chminieconomy.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 2,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Budget",
+                "image": "img/logos/budget.gif",
+                "location": {
+                    "latitude": "53.803413",
+                    "longitude": "-1.535425"
+                }							
+            },
+            "price": {
+                "value": 67.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Intermediate",
+                "image": "img/cartypes/chmediumfamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        },
+        {
+            "company": {
+                "name": "Budget",
+                "image": "img/logos/budget.gif",
+                "location": {
+                    "latitude": "53.803413",
+                    "longitude": "-1.535425"
+                }							
+            },
+            "price": {
+                "value": 77.23,
+                "currency": "£"
+            },
+            "carType": {
+                "name": "Premium",
+                "image": "img/cartypes/chlargefamily.jpg"
+            },
+            "carDetails": {
+                "hireDuration": 7,
+                "doors": 4,
+                "airCon": false,
+                "optionalExtras": true,
+                "localTax": true,
+                "unlimitedMileage": true,
+                "depositRequired": true,
+                "cancellation": {
+                    "free": true,
+                    "hover": "Please read Terms & Conditions for details on free cancellation"
+                },
+                "cdw": true,
+                "theftProtection": true,
+		"acriss": "MBMN"
+            },
+            "promotion": {
+                "promote": true,
+                "message": "NO Credit card fees; NO Amendment & NO Cancellation fees; Freephone support. Book Now - Limited Special Offer!"
+            }
+        }						
+		
+		
+
+		
+		
+	]
+}

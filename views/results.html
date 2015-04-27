@@ -1,0 +1,69 @@
+		<section id="car-hire-results">
+		
+		<h3>{{ filteredItems.length }} results for {{ theLocation }}</h3><a href="#/search">search again</a>
+
+			<article data-ng-repeat="result in (filteredItems = (results | filter:search | filter:filterCarType | filter:filterProvider | filter:filterPrice))" data-ng-animate="{enter: 'example-repeat-enter', leave: 'example-repeat-leave', move: 'example-repeat-move'}" class="result">
+				<header><h3>{{result.carType.name}}, {{result.carDetails.doors}} door, &pound;{{result.price.value}}</h3></header>
+				<img class="car-type" alt="{{result.carType.name}}" src="{{result.carType.image}}" />
+				<ul class="result-features">
+					<li>{{result.carDetails.hireDuration}} day hire</li>
+					<li data-ng-show="result.carDetails.airCon">Air conditioning</li>
+					<li data-ng-show="result.carDetails.unlimitedMileage">Unlimited Mileage</li>
+					<li data-ng-show="result.carDetails.theftProtection">Theft Protection</li>
+				</ul>
+				
+				<p><img class="company" alt="{{result.company.name}}" src="{{result.company.image}}" /></p>
+				
+			</article>
+
+			<p data-ng-show="(results | filter:search).length==0">There are no results for this search</p>
+			
+			<!--<footer role="navigation" id="pagination">
+				<input type="button" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1" value="Previous" />
+				{{currentPage+1}}/{{numberOfPages()}}
+				<input type="button" ng-disabled="currentPage >= results.length/pageSize - 1" ng-click="currentPage=currentPage+1" value="Next">	
+					{{results.length}}
+			</footer>-->
+		
+		</section>
+		
+		<section id="filters">
+			<h2>Filters</h2>
+			
+			<fieldset>
+			<h4>Doors:</h4> 
+			<select data-ng-model="search.carDetails">
+				<option value="">All</option>
+				<option value="2">2</option>
+				<option value="4">4</option>
+				<option value="9">9</option>
+			</select>	
+			
+			<br><br>
+			
+			<div class="left">
+				<h4>Car type:</h4>
+				Mini <input type="checkbox"  data-ng-model="carType.Mini" value="Mini" data-ng-click="updateMarkers()" /><br>
+				Economy <input type="checkbox"  data-ng-model="carType.Economy" value="Economy" data-ng-click="updateMarkers()" /><br>		
+				Compact <input type="checkbox"  data-ng-model="carType.Compact" value="Compact" data-ng-click="updateMarkers()" /><br>
+				Intermediate <input type="checkbox"  data-ng-model="carType.Intermediate" value="Intermediate" data-ng-click="updateMarkers()" /><br>
+				Premium <input type="checkbox"  data-ng-model="carType.Premium" value="Premium" data-ng-click="updateMarkers()" /><br>
+			</div>
+			
+			<div class="right">
+				<h4>Provider:</h4>
+				Atlas Choice <input type="checkbox"  data-ng-model="company.AtlasChoice" value="Atlas Choice" data-ng-click="updateMarkers()"  /><br>
+				Holiday Autos <input type="checkbox"  data-ng-model="company.HolidayAutos" value="Holiday Autos"  data-ng-click="updateMarkers()" /><br>
+				Avis <input type="checkbox"  data-ng-model="company.Avis" ng-true-value="Avis" data-ng-click="updateMarkers()" /><br>
+				Budget <input type="checkbox"  data-ng-model="company.Budget" ng-true-value="Budget" data-ng-click="updateMarkers()" /><br>
+			</div>
+			
+			<h4>Price range:</h4>
+			<p id="amount">&pound;{{priceRange[0]}} - &pound;{{priceRange[1]}}</p>
+			<div ui-slider="{'min':0,'max':100}" data-ng-model="priceRange" id="price-slider"></div>
+			
+			</fieldset>
+		
+		</section>
+		
+		<section id="map"></section>
